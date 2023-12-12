@@ -1,0 +1,84 @@
+/* size of images */
+/* img{
+    width: 250px;
+    height: 250px;
+} */
+
+/* aligning image */
+/* img{
+    margin-left: 200px;
+} */
+
+/* img{
+    float: right;
+} */
+
+/* centering images */
+/* img{
+
+    display: block;
+    margin: auto;
+
+} */
+
+/* background images */
+/* body{
+    background-image: url(./tree.jpg);
+    
+} */
+
+/* background imag repeat */
+/* body{
+    background-image: url(./tree.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+/* }*/
+
+/* background position */
+/* body{
+    background-image: url('./leave.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+} */
+
+/* background shorthand */
+/* body{
+    background: lightcyan url('./leave.jpg') no-repeat center;
+} */
+/* gradients */
+
+/* liner gradient */
+/* body{
+    background-image: linear-gradient(lightgreen,yellow);
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+/* linear-gradient */
+/* #gradient{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    background-image: linear-gradient( lightblue ,yellow,red ,yellow);
+    margin: auto;
+
+} */
+/* radial-gradien */
+/* #gradient{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    background-image: radial-gradient( lightblue ,yellow,red ,yellow);
+    margin: auto;
+
+} */
+/* conic-gradient */
+#gradient{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    background-image: conic-gradient( green ,yellow,red ,yellow);
+    border-radius: 50%;
+    margin: auto;
+}
